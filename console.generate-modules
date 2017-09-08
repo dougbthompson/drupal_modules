@@ -1,0 +1,36 @@
+
+# done
+drupal generate:module --module="atn_user_role" --machine-name="atn_user_role" --module-path="/modules/custom" \
+       --description="atndb.atn_user_role table maintenance" --core="8.x" --package="Custom" --module-file \
+       --composer --test --twigtemplate --learning --uri="http://default" --no-interaction
+
+# done
+drupal generate:module --module="atn_user" --machine-name="atn_user" --module-path="/modules/custom" \
+       --description="atndb.atn_user table maintenance" --core="8.x" --package="Custom" --module-file \
+       --composer --test --twigtemplate --learning --uri="http://default" --no-interaction
+
+# not done
+drupal generate:module --module="atn_contact" --machine-name="atn_contact" --module-path="/modules/custom" \
+       --description="atndb.atn_contact table maintenance" --core="8.x" --package="Custom" --module-file \
+       --composer --test --twigtemplate --learning --uri="http://default" --no-interaction
+
+# not done
+drupal generate:module --module="atn_organisation" --machine-name="atn_organisation" --module-path="/modules/custom" \
+       --description="atndb.atn_organisation table maintenance" --core="8.x" --package="Custom" --module-file \
+       --composer --test --twigtemplate --learning --uri="http://default" --no-interaction
+
+# not done
+drupal generate:module --module="atn_project" --machine-name="atn_project" --module-path="/modules/custom" \
+       --description="atndb.atn_project table maintenance" --core="8.x" --package="Custom" --module-file \
+       --composer --test --twigtemplate --learning --uri="http://default" --no-interaction
+
+# not done
+drupal generate:module --module="atn_organisation_project" --machine-name="atn_organisation_project" --module-path="/modules/custom" \
+       --description="atndb.atn_organisation_project table maintenance" --core="8.x" --package="Custom" --module-file \
+       --composer --test --twigtemplate --learning --uri="http://default" --no-interaction
+
+# not done
+drupal generate:module --module="atn_project_user_role" --machine-name="atn_project_user_role" --module-path="/modules/custom" \
+       --description="atndb.atn_project_user_role table maintenance" --core="8.x" --package="Custom" --module-file \
+       --composer --test --twigtemplate --learning --uri="http://default" --no-interaction
+
